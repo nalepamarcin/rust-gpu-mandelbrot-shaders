@@ -1,0 +1,3 @@
+[submodule "vendor/rust-gpu"]
+	path = vendor/rust-gpu
+	url = git@github.com:EmbarkStudios/rust-gpu.git

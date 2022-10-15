@@ -3,6 +3,8 @@ target = "spirv-unknown-spv1.5"
 rustflags = [
    "-Zcodegen-backend=librustc_codegen_spirv.so",
    "-Csymbol-mangling-version=v0",
+   "-Ctarget-feature=+Int8",
+   "-Ctarget-feature=+Int16"
 ]
 
 [unstable]
